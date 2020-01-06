@@ -2,6 +2,12 @@
 
 [Azure でホストされている IP アドレス一覧](https://www.microsoft.com/en-us/download/confirmation.aspx?id=56519) を収集し、取得するための Azure Functions
 
+## [check-addresses](./check-addresses/README.md)
+
+[./check-addresses/README.md](./check-addresses/README.md)
+
+指定した IP アドレスがどのサービス (servicetag) で利用されているかを調べるための API。
+
 ## get-servicetags-public-json
 
 HTTP トリガーのファンクションで、json ファイルを取得する API (Web API) を提供する。
